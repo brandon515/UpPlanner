@@ -1,0 +1,24 @@
+request people to join you in an event
+
+data required:
+	Name of event
+	participants
+	place/game
+	time
+	people required(optional)
+	max amount of people(optional)
+
+valid data:
+	Name of event:
+		any string
+	participants:
+		data from contact lists or a raw number, this is what smsmanager will use
+	place/game:
+		any string
+	time:
+		the hour(1-12) and the minute(0-60) or when a certain number of people have accepted
+	people required:
+		the lower limit of people, is only an option when the second choice for time has been chosen
+	max amount of people:
+		upper limit of people, when this number has been accepted the list will notify and block any chance to accept an event
+		

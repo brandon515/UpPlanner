@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/gen_pref_cat">
+    <Preference android:title="@string/avatar_pref_name" android:key="@string/avatar_pref_key" android:defaultValue="@string/def_avatar"/><EditTextPreference android:key="@string/name_pref" android:title="@string/name_pref_title" android:summary="@string/name_pref_des" android:defaultValue="@string/name_pref_default"/>
+    
+</PreferenceCategory>
+    
+
+</PreferenceScreen>
